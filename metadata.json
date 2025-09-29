@@ -1,0 +1,5 @@
+{
+  "name": "Abstract",
+  "description": "A no-code tool to build, customize, and deploy a Gemini-powered chatbot for your website. Define intents, responses, and appearance, then embed it with a simple iframe.",
+  "requestFramePermissions": []
+}

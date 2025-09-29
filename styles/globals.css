@@ -1,0 +1,55 @@
+/* styles/globals.css */
+:root {
+  /* Light theme (default) */
+  --color-background: #FFFAF3;
+  --color-surface: #FFFFFF;
+  --color-primary: #F97316;
+  --color-text-primary: #1F2937;
+  --color-text-secondary: #6B7280;
+  --color-text-muted: #9CA3AF;
+  --color-border: #FED7AA;
+  --color-shadow: rgba(249, 115, 22, 0.1);
+}
+
+.dark {
+  /* Dark theme */
+  --color-background: #1F2937;
+  --color-surface: #374151;
+  --color-primary: #EA580C;
+  --color-text-primary: #F9FAFB;
+  --color-text-secondary: #D1D5DB;
+  --color-text-muted: #9CA3AF;
+  --color-border: #4B5563;
+  --color-shadow: rgba(0, 0, 0, 0.3);
+}
+
+/* Ensure consistent background */
+body {
+  background-color: var(--color-background);
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Theme-aware utility classes */
+.theme-bg {
+  background-color: var(--color-background);
+}
+
+.theme-surface {
+  background-color: var(--color-surface);
+}
+
+.theme-text-primary {
+  color: var(--color-text-primary);
+}
+
+.theme-text-secondary {
+  color: var(--color-text-secondary);
+}
+
+.theme-border {
+  border-color: var(--color-border);
+}
+
+.theme-shadow {
+  box-shadow: 0 4px 6px -1px var(--color-shadow);
+}
